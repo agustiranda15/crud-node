@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>CRUD User</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+    <span class="logo-text">CRUD User</span>
+  </div>
+</header>
+
+
+<h1>CRUD User</h1>
+
+<div class="table-wrapper">
+
+  <input type="text" id="name" placeholder="Masukkan nama">
+  <button onclick="addUser()">Simpan</button>
+
+  <h2>Daftar User</h2>
+
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nama</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody id="userTable"></tbody>
+  </table>
+
+</div>
+<!-- FOOTER -->
+<footer class="footer">
+    <p>
+        © <span id="year"></span> Developed by Agustiranda x ChatGPT.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER STICKY */
+.header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 12px 40px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+body {
+  margin: 0;
+  padding-top: 80px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Input & Button */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-child(2) {
+  background: #4CAF50;
+  color: white;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background: #1976d2;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Action Buttons */
+td button {
+  margin: 0 3px;
+}
+
+td button:first-child {
+  background: #ff9800;
+  color: white;
+}
+
+td button:last-child {
+  background: #f44336;
+  color: white;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 40px;
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 600px) {
+
+  body {
+    padding-top: 70px;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+
+  .header {
+    padding: 10px 20px;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+
+  .logo img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
