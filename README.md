@@ -54,8 +54,8 @@ http://localhost:3000
 ---
 
 ## 📸 Screenshot
-![CRUD User App](<img width="1234" height="656" alt="CRUD" src="https://github.com/user-attachments/assets/7700e8d4-7e52-4bac-ac88-c8b31b2173a5" />
-)
+![CRUD User App](https://github.com/user-attachments/assets/beb653cc-737a-464c-9fa8-a6a4e5c52bfa)
+
 
 ---
 
